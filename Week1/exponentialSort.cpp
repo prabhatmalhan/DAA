@@ -18,7 +18,7 @@ int linearSearch(vector<int> a, int b, int e, int k)
     return 0;
 }
 
-int exponentialSort(vector<int> a, int key)
+int exponentialSearch(vector<int> a, int key)
 {
     int n = a.size();
     if (a[0] == key)
@@ -30,4 +30,22 @@ int exponentialSort(vector<int> a, int key)
     while (i < n && a[i] < key)
         i *= 2;
     return linearSearch(a, i / 2, min(n - 1, i), key);
+}
+
+int main()
+{
+    int n;
+    cin >> n;
+    for (int z = 0; z < n; ++z)
+    {
+        int l;
+        cin >> l;
+        vector<int> a(l);
+        for (int i = 0; i < l; ++i)
+            cin >> a[i];
+        int key;
+        cin >> key;
+        exponentialSearch(a, key);
+    }
+    return 0;
 }
