@@ -5,7 +5,7 @@ using namespace std;
 int linearSearch(vector<int> a, int b, int e, int k)
 {
     int no_of_comparison = 0;
-    for (int i = b; i < e; ++i)
+    for (int i = b; i <= e; ++i)
     {
         ++no_of_comparison;
         if (a[i] == k)
@@ -16,4 +16,18 @@ int linearSearch(vector<int> a, int b, int e, int k)
     }
     cout << "Not Present " << no_of_comparison << endl;
     return 0;
+}
+
+int exponentialSort(vector<int> a, int key)
+{
+    int n = a.size();
+    if (a[0] == key)
+    {
+        cout << "Present 1" << endl;
+        return 1;
+    }
+    int i = 1;
+    while (i < n && a[i] < key)
+        i *= 2;
+    return linearSearch(a, i / 2, min(n - 1, i), key);
 }
