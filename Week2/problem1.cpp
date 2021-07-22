@@ -32,3 +32,37 @@ int binary_search(vector<int> a, int key, bool find_first_occurence)
     }
     return -1;
 }
+
+int main()
+{
+#ifndef ONLINE_JUDGE
+    freopen("input.txt", "r", stdin);
+    freopen("output.txt", "w", stdout);
+#endif
+    int n;
+    cin >> n;
+    for (int z = 0; z < n; ++z)
+    {
+        int l;
+        cin >> l;
+        vector<int> a;
+        for (int i = 0; i < l; ++i)
+        {
+            int y;
+            cin >> y;
+            a.push_back(y);
+        }
+        int key;
+        cin >> key;
+        cout << key << " - ";
+        int first_occurence = binary_search(a, key, true);
+        if (first_occurence >= 0)
+        {
+            int last_occurence = binary_search(a, key, false);
+            cout << last_occurence - first_occurence + 1 << endl;
+            continue;
+        }
+        cout << "Key Not Found" << endl;
+    }
+    return 0;
+}
