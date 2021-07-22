@@ -54,12 +54,11 @@ int main()
         }
         int key;
         cin >> key;
-        cout << key << " - ";
         int first_occurence = binary_search(a, key, true);
         if (first_occurence >= 0)
         {
             int last_occurence = binary_search(a, key, false);
-            cout << last_occurence - first_occurence + 1 << endl;
+            cout << key << " - " << last_occurence - first_occurence + 1 << endl;
             continue;
         }
         cout << "Key Not Found" << endl;
