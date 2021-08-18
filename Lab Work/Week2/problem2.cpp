@@ -2,7 +2,7 @@
 
 using namespace std;
 
-int binary_search(vector<int> a, int b, int e, int k)
+int binary_search(int a[], int b, int e, int k)
 {
     while (b <= e)
     {
@@ -17,14 +17,13 @@ int binary_search(vector<int> a, int b, int e, int k)
     return -1;
 }
 
-void find_sequence(vector<int> a)
+void find_sequence(int a[], int n)
 {
-    int n = a.size();
     for (int i = 0; i < n; ++i)
     {
         for (int j = i + 1; j < n; ++j)
         {
-            int ind = binary_search(a, j + 1, a.size() - 1, a[i] + a[j]);
+            int ind = binary_search(a, j + 1, n - 1, a[i] + a[j]);
             if (ind >= 0)
             {
                 cout << i + 1 << "," << j + 1 << "," << ind + 1 << endl;
@@ -47,14 +46,10 @@ int main()
     {
         int l;
         cin >> l;
-        vector<int> a;
+        int a[l];
         for (int i = 0; i < l; ++i)
-        {
-            int y;
-            cin >> y;
-            a.push_back(y);
-        }
-        find_sequence(a);
+            cin >> a[i];
+        find_sequence(a, l);
     }
     return 0;
 }

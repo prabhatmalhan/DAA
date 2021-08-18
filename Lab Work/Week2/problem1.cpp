@@ -2,9 +2,9 @@
 
 using namespace std;
 
-int binary_search(vector<int> a, int key, bool find_first_occurence)
+int binary_search(int a[], int l, int key, bool find_first_occurence)
 {
-    int b = 0, l = a.size(), e = l - 1;
+    int b = 0, e = l - 1;
     while (b <= e)
     {
         int mid = (b + e) / 2;
@@ -45,19 +45,15 @@ int main()
     {
         int l;
         cin >> l;
-        vector<int> a;
+        int a[l];
         for (int i = 0; i < l; ++i)
-        {
-            int y;
-            cin >> y;
-            a.push_back(y);
-        }
+            cin >> a[i];
         int key;
         cin >> key;
-        int first_occurence = binary_search(a, key, true);
+        int first_occurence = binary_search(a, l, key, true);
         if (first_occurence >= 0)
         {
-            int last_occurence = binary_search(a, key, false);
+            int last_occurence = binary_search(a, l, key, false);
             cout << key << " - " << last_occurence - first_occurence + 1 << endl;
             continue;
         }

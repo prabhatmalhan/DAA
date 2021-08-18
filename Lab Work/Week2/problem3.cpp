@@ -2,9 +2,9 @@
 
 using namespace std;
 
-int find_count(vector<int> a, int key)
+int find_count(int a[], int n, int key)
 {
-    int n = a.size(), c = 0;
+    int c = 0;
     for (int i = 0; i < n; ++i)
     {
         for (int j = i + 1; j < n; ++j)
@@ -28,16 +28,12 @@ int main()
     {
         int l;
         cin >> l;
-        vector<int> a;
+        int a[l];
         for (int i = 0; i < l; ++i)
-        {
-            int y;
-            cin >> y;
-            a.push_back(y);
-        }
+            cin >> a[i];
         int key;
         cin >> key;
-        cout << find_count(a, key) << endl;
+        cout << find_count(a, l, key) << endl;
     }
     return 0;
 }
