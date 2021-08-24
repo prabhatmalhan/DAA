@@ -45,7 +45,7 @@ void findPair(int arr[], int l, int h, int k)
         {
             if (arr[l] + arr[h] == k)
             {
-                cout << l << " " << h << ", ";
+                cout << arr[l] << " " << arr[h] << ", ";
                 flag = 0;
             }
             l++;
