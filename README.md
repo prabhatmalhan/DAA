@@ -66,6 +66,19 @@
             <td>Finding Kth smallest number</td>
             <td> <a href="./Lab Work/Week4/KSmallest.cpp">KSmallest.cpp</a> </td>
         </tr>
+        <tr>
+            <td rowspan=3>Week 5</td>
+            <td>Count Sort</td>
+            <td> <a href="./Lab Work/Week5/countSort.cpp">countSort.cpp</a> </td>
+        </tr>
+        <tr>
+            <td>Finding indices as a[i]+a[j]=a[k] in unsorted array</td>
+            <td> <a href="./Lab Work/Week5/keyPairSum.cpp">keyPairSum.cpp</a> </td>
+        </tr>
+        <tr>
+            <td>Finding common elements of two arrays</td>
+            <td> <a href="./Lab Work/Week5/common.cpp">common.cpp</a> </td>
+        </tr>
     </tbody>
 </table>
 
