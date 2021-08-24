@@ -33,7 +33,7 @@
             <td> <a href="./Lab Work/Week2/problem1.cpp">problem1.cpp</a> </td>
         </tr>
         <tr>
-            <td>Finding indices as a[i]+a[j]=a[k]</td>
+            <td>Finding indices as a[i]+a[j]=a[k] in sorted array</td>
             <td> <a href="./Lab Work/Week2/problem2.cpp">problem2.cpp</a> </td>
         </tr>
         <tr>
