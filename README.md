@@ -79,6 +79,11 @@
             <td>Finding common elements of two arrays</td>
             <td> <a href="./Lab Work/Week5/common.cpp">common.cpp</a> </td>
         </tr>
+        <tr>
+            <td rowspan=3>Week 6</td>
+            <td>Finding Existance of Path</td>
+            <td> <a href="./Lab Work/Week6/dfs.cpp">dfs.cpp</a> </td>
+        </tr>
     </tbody>
 </table>
 
