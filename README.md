@@ -84,6 +84,10 @@
             <td>Finding Existance of Path</td>
             <td> <a href="./Lab Work/Week6/dfs.cpp">dfs.cpp</a> </td>
         </tr>
+        <tr>
+            <td>Checking if Graph is Bipartite</td>
+            <td> <a href="./Lab Work/Week6/bipartite.cpp">bipartite.cpp</a> </td>
+        </tr>
     </tbody>
 </table>
 
