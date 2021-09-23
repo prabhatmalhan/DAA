@@ -80,13 +80,22 @@
             <td> <a href="./Lab Work/Week5/common.cpp">common.cpp</a> </td>
         </tr>
         <tr>
-            <td rowspan=3>Week 6</td>
+            <td rowspan=2>Week 6</td>
             <td>Finding Existance of Path</td>
             <td> <a href="./Lab Work/Week6/dfs.cpp">dfs.cpp</a> </td>
         </tr>
         <tr>
             <td>Checking if Graph is Bipartite</td>
             <td> <a href="./Lab Work/Week6/bipartite.cpp">bipartite.cpp</a> </td>
+        </tr>
+        <tr>
+            <td rowspan=3>Week 7</td>
+            <td>Djikstra Algorithm</td>
+            <td> <a href="./Lab Work/Week7/Djikstra.cpp">Djikstra.cpp</a> </td>
+        </tr>
+        <tr>
+            <td>Bellman Ford Algorithm</td>
+            <td> <a href="./Lab Work/Week7/bellmanFord.cpp">bellmanFord.cpp</a> </td>
         </tr>
     </tbody>
 </table>
