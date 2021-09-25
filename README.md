@@ -97,6 +97,10 @@
             <td>Bellman Ford Algorithm</td>
             <td> <a href="./Lab Work/Week7/bellmanFord.cpp">bellmanFord.cpp</a> </td>
         </tr>
+        <tr>
+            <td>Shortest Path with exactly K edges</td>
+            <td> <a href="./Lab Work/Week7/SPKedge.cpp">SPKedge.cpp</a> </td>
+        </tr>
     </tbody>
 </table>
 
