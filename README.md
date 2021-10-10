@@ -1,10 +1,17 @@
 # Submission of DAA _Lab-Work_ and _Assignments_
+
 ### Name : Prabhat Malhan
+
 ### Section : ML
+
 ### Roll No. : 51
+
 ### University Roll No. : 2015257
-# 
+
+#
+
 ### Lab Work
+
 <table>
     <thead>
         <tr>
@@ -101,11 +108,28 @@
             <td>Shortest Path with exactly K edges</td>
             <td> <a href="./Lab Work/Week7/SPKedge.cpp">SPKedge.cpp</a> </td>
         </tr>
+        <tr>
+            <td rowspan=3>Week 8</td>
+            <td>Prims Algorithm</td>
+            <td> <a href="./Lab Work/Week8/prims.cpp">prims.cpp</a> </td>
+        </tr>
+        <tr>
+            <td>Kruskals Algorithm</td>
+            <td> <a href="./Lab Work/Week8/kruskals.cpp">kruskals.cpp</a> </td>
+        </tr>
+        <tr>
+            <td>Maximum Road Cost</td>
+            <td> <a href="./Lab Work/Week8/costMaximization.cpp">costMaximization.cpp</a> </td>
+        </tr>
+
     </tbody>
+
 </table>
 
 #
+
 ### Assignments
+
 <table>
     <thead>
         <tr>
