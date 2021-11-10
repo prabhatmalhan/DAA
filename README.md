@@ -121,6 +121,19 @@
             <td>Maximum Road Cost</td>
             <td> <a href="./Lab Work/Week8/costMaximization.cpp">costMaximization.cpp</a> </td>
         </tr>
+        <tr>
+            <td rowspan=3>Week 9</td>
+            <td>Floyd-Warshall Algorithm</td>
+            <td> <a href="./Lab Work/Week9/Floyd_Warshall.cpp">Floyd_Warshall.cpp</a> </td>
+        </tr>
+        <tr>
+            <td>Fractional-Knapsack Algorithm</td>
+            <td> <a href="./Lab Work/Week9/Fractional_Knapsack.cpp">Fractional_Knapsack.cpp</a> </td>
+        </tr>
+        <tr>
+            <td>Minimum Merging Cost</td>
+            <td> <a href="./Lab Work/Week9/Merge_File.cpp">Merge_File.cpp</a> </td>
+        </tr>
 
     </tbody>
 
