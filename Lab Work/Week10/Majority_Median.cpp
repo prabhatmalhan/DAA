@@ -50,19 +50,19 @@ int main()
         a.push_back(x);
     }
     sort(a.begin(), a.end());
-    int med = -99, c = 0, i = 0;
+    int c = 0, i = 0;
     while (i < n)
     {
         int fo = binary_search(a, a[i], true), lo = binary_search(a, a[i], false);
         int nc = lo - fo + 1;
         if (nc > c)
-        {
-            med = a[i];
             c = nc;
-        }
         i = lo + 1;
     }
     cout << (n * .5 < c ? "yes" : "no") << endl;
-    cout << med << endl;
+    if (n & 1)
+        cout << a[n / 2] << endl;
+    else
+        cout << (a[n / 2] + a[n / 2 + 1]) / 2.0;
     return 0;
 }
