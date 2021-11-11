@@ -45,6 +45,7 @@ int main()
             }
             ++count;
             selected.push_back(ind);
+            visited[de] = 1;
         }
     }
     cout << "Max Number of Tasks: " << count << endl;
