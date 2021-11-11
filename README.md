@@ -134,7 +134,19 @@
             <td>Minimum Merging Cost</td>
             <td> <a href="./Lab Work/Week9/Merge_File.cpp">Merge_File.cpp</a> </td>
         </tr>
-
+        <tr>
+            <td rowspan=3>Week 10</td>
+            <td>Activity Selection Algo</td>
+            <td> <a href="./Lab Work/Week10/activity_selection.cpp">activity_selection.cpp</a> </td>
+        </tr>
+        <tr>
+            <td>Job Sequencing</td>
+            <td> <a href="./Lab Work/Week10/job_sequencing.cpp">job_sequencing.cpp</a> </td>
+        </tr>
+        <tr>
+            <td>Median & Majority Element</td>
+            <td> <a href="./Lab Work/Week10/Majority_Median.cpp">Majority_Median.cpp</a> </td>
+        </tr>
     </tbody>
 
 </table>
